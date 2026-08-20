@@ -34,7 +34,7 @@ QString QtDesignerAngularLabelPlugin::name() const
 
 QString QtDesignerAngularLabelPlugin::group() const
 {
-    return "My Plugins";
+    return "Display Widgets";
 }
 
 QIcon QtDesignerAngularLabelPlugin::icon() const
@@ -59,7 +59,7 @@ bool QtDesignerAngularLabelPlugin::isContainer() const
 
 QString QtDesignerAngularLabelPlugin::domXml() const
 {
-    return "<widget class=\"AngularLabel\" name=\"AngularLabel\">\n"
+    return "<widget class=\"AngularLabel\" name=\"label\">\n"
         " <property name=\"geometry\">\n"
         "  <rect>\n"
         "   <x>0</x>\n"

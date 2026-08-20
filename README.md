@@ -8,6 +8,3 @@ An HTML-capable implementation of Qt Label that can be rotated by an arbitrary a
 _Usage_
 1. Build and install the plugin in your Qt directory
 2. Use AngularLabel.* files in your project
-
-_Known issue_
-- Qt Designer names the first instance "AngularLabel", leading to a compilation error.

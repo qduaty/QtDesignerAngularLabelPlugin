@@ -13,9 +13,9 @@ public:
 signals:
     void angleChanged(double);
 protected:
-    void paintEvent(QPaintEvent*);
-    QSize sizeHint() const;
-    QSize minimumSizeHint() const;
+    void paintEvent(QPaintEvent*) override;
+    QSize sizeHint() const override;
+    QSize minimumSizeHint() const override;
 private:
     double angle = 0;
     QTextDocument doc;
